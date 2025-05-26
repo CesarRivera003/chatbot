@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <form method="post">
+        <input type="text" name="message" placeholder="Escribe tu mensaje" value="{{ user_input }}">
+        <input type="submit" value="Enviar">
+    </form>
+    <p><strong>Chatbot:</strong> {{ message }}</p>
+</body>
+</html>
